@@ -1,6 +1,5 @@
 #1/usr/bin/bash
 
-curl -L https://raw.github.com/wp-cli/builds/gh-pages/phar/wp-cli.phar > wp-cli.phar
 echo "alias wp='/usr/php/54/usr/bin/php-cli /usr/php/54/usr/bin/wp'" >> ~/.bashrc
 source ~/.bashrc
 wp
