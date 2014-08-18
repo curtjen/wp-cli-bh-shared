@@ -23,16 +23,10 @@ Refer to "Usage" instructions below (under "__Lazy Way (GitHub hosted)__").
 
 ### __Self Hosted (you host the file)__
 1. Connect via SSH to the hosting account that you would like to run this on.
-2. Run the following command (note the dot "."):
-```
-. <(curl -sS PATH-TO-FILE)
-```
+2. Run the following command (note the dot "."):```. <(curl -sS PATH-TO-FILE)```
 3. Start using ```wp``` for running WP-CLI commands.
 
 ### __Lazy Way (GitHub hosted)__
 1. Connect via SSH to the hosting account that you would like to run this on.
-2. Run the following command (note the dot "."):
-```
-. <(curl -sS https://raw.githubusercontent.com/curtjen/wp-cli-bh-shared/master/wpcli)
-```
+2. Run the following command (note the dot "."):```. <(curl -sS https://raw.githubusercontent.com/curtjen/wp-cli-bh-shared/master/wpcli)```
 3. Start using ```wp``` for running WP-CLI commands.
